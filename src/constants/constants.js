@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: 'Audiocave',
-    description: "Full Stack project, aims to remove noise listened during song when in room like in discord room server. Sessions for uninterrupted experience.",
+    description: "Full Stack project, aims to remove noise listened during song when in room like in discord room server. Sessions for uninterrupted experience. Application runs thorugh ngrok.",
       image: 'https://user-images.githubusercontent.com/56690827/133003553-6a283c28-9394-4f2d-9142-ab56290b8b3b.png',
       tags: ['React', 'Django', 'WebSockets', 'PostgreSQL'],
     source: 'https://github.com/tusharrao198/audiocave',
-    visit: '',
+    visit: '#',
     id: 0,
   },
   {
