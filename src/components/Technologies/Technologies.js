@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiDatabase, DiDjango, DiFirebase, DiNodejs, DiNodejsSmall, DiReact, DiZend } from 'react-icons/di';
+import { DiDatabase, DiDjango, DiDlang, DiFirebase, DiJava, DiJavascript, DiMongodb, DiMysql, DiNodejs, DiNodejsSmall, DiPostgresql, DiPython, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,15 +8,25 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      Worked with technolgies in web-development field namely WebSockets, ReactJs, Node.js, Django.
+      I have worked with many of the latest technologies namely,
     </SectionText>
     <List>
+      <ListItem>
+        <DiDlang size="3rem"/>
+        <ListContainer>
+          <ListTitle>Languages</ListTitle>
+          <ListParagraph>
+             <DiPython size="2rem"/>Python <br/> <DiJavascript size="2rem"/>JavaScript<br/> <DiMysql size="2rem"/>SQL<br/> <DiJava size="2rem"/>Java <br/> C++ <br/> 
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
       <ListItem>
         <DiReact size="3rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Worked with <br/> React.js
+            React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -25,8 +35,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Worked with <br/> Node.js <DiNodejsSmall size="2rem"/> <br/>
-            Django <DiDjango size="2rem"/>
+          <DiNodejsSmall size="2rem" />Node.js  <br/>
+          <DiDjango size="2rem"/>Django
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,10 +45,9 @@ const Technologies = () =>  (
         <ListContainer>      
           <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Worked with <br/> Postgres, MySQL, MongoDB
+             <DiPostgresql/>Postgres <br/><DiMysql/>MySQL <br/><DiMongodb/>MongoDB
           </ListParagraph>
         </ListContainer>
-
       </ListItem>
     </List>
   </Section>

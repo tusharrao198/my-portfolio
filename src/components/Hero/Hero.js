@@ -12,9 +12,9 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         B.Tech | EE | IIT MANDI |  Pre-Final Year <br/>
-        I am a Full Stack Web Developer.
       </SectionText>
       <Button onClick={() => window.location="https://github.com/tusharrao198"}>About Me</Button>
+      <SectionText>I'm a Full Stack Web Developer. <br/>I love creating new stuff.</SectionText>
     </LeftSection>
 
   </Section>

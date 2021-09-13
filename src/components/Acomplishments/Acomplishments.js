@@ -5,7 +5,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 import {data} from '../../constants/constants';
 
 const Acomplishments = () => (
-  <Section>
+  <Section id="accomplishments">
     <SectionDivider />
     <SectionTitle main>Achievements & Responsibilities</SectionTitle>
     <Boxes>
