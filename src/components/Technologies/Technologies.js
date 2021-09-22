@@ -16,7 +16,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-             <DiPython size="2rem"/>Python <br/> <DiJavascript size="2rem"/>JavaScript<br/> <DiMysql size="2rem"/>SQL<br/> <DiJava size="2rem"/>Java <br/> C++ <br/> 
+             <DiPython size="2rem"/>Python <br/> <DiJavascript size="2rem"/>JavaScript<br/> <DiMysql size="2rem"/>SQL<br/> C++ <br/> 
+             {/* <DiJava size="2rem"/>Java <br/> */}
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,6 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             React.js
+            <br/>CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>

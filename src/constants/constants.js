@@ -44,5 +44,5 @@ export const data = [
   { number: "OPEN SOURCE AND WEB DEV HEAD", text: 'STAC | IIT MANDI | Responsible for managing the technical needs of club', },
   { number: "CORE TEAM MEMBER ", text: 'STAC | IIT MANDI | Member of Space Technology Astronomy Cell (STAC)', },
   { number: "SPONSORSHIP HEAD", text: "ASTRAX'21 | IIT MANDI", },
-  { number: "Cascade Cup Tournament | IIT Guwahati", text: 'Participated and Stood in top 50 percent.', }
+  { number: "Cascade Cup Tournament | IIT Guwahati", text: 'Data Science tournament, Participated and Stood in top 50 percent.', }
 ];
